@@ -75,7 +75,7 @@ Return ONLY the JSON object, no other text:
         # (Download from https://ollama.ai)
         
         response = httpx.post(
-            "http://localhost:11434/api/generate",  # Ollama's address
+            "https://parrot-postcard-mooned.ngrok-free.dev/api/generate",  # Ollama's address
             json={
                 "model": "mistral",                   # Or llama2, neural-chat, etc.
                 "prompt": prompt,
